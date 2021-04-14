@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RamadanTime</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        
+        #wraper {
+            width: 85%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        
+        #first {
+            margin: 0 auto;
+        }
+        
+        #second {
+            background: #e3e3e3;
+            border-collapse: collapse;
+            color: #000;
+            margin: 0 auto;
+            min-width: 65%;
+            max-width: 80%;
+        }
+        
+        td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        
+        tr:nth-child(odd) {
+            background: #000;
+            color: #fff;
+        }
+        
+        th {
+            border: 1px solid black;
+            font-size: 25px;
+            padding: 10px;
+        }
+        
+        h1,
+        h3 {
+            text-align: center;
+            background: sandybrown;
+            padding: 8px;
+            margin: 0 auto;
+        }
+        
+        #headline {
+            margin: 0 0 10px 0;
+        }
+        
+        footer p,
+        #reminder {
+            text-align: center;
+            font-size: 12px;
+            padding: 8px;
+            background: sandybrown;
+            margin: 10px auto;
+        }
+        
+        footer p {
+            margin: 0 auto;
+            background: coral;
+            color: #fff;
+        }
+        
+        #blank {
+            margin-bottom: 20px;
+        }
+        
+        @media (max-width: 768px) {
+            #second {
+                width: 300px;
+            }
+            td {
+                padding: 2px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="headline">
+        <h1>RAMADAN CALENDAR 2021 - Dhaka</h1>
+        <h3>(SEHR-O-IFTAR TIME)</h3>
+    </header>
+    <div id="wraper">
+        <div>
+
+
+            <table id="second">
+                <tr>
+                    <th>RAMADAN</th>
+                    <th>SEHRI</th>
+                    <th>IFTAR</th>
+                    <th>DATE</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>04:21 AM</td>
+                    <td>6:20 PM</td>
+                    <td>13 April 2021</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>04:20 AM</td>
+                    <td>6:20 PM</td>
+                    <td>14 April 2021</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>04:19 AM</td>
+                    <td>6:21 PM</td>
+                    <td>15 April 2021</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>04:18 AM</td>
+                    <td>6:21 PM</td>
+                    <td>16 April 2021</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>04:17 AM</td>
+                    <td>6:22 PM</td>
+                    <td>17 April 2021</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>04:16 AM</td>
+                    <td>6:22 PM</td>
+                    <td>18 April 2021</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>04:15 AM</td>
+                    <td>6:22 PM</td>
+                    <td>19 April 2021</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>04:13 AM</td>
+                    <td>6:23 PM</td>
+                    <td>20 April 2021</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>04:12 AM</td>
+                    <td>6:23 PM</td>
+                    <td>21 April 2021</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>04:11 AM</td>
+                    <td>6:24 PM</td>
+                    <td>22 April 2021</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>04:10 AM</td>
+                    <td>6:24 PM</td>
+                    <td>23 April 2021</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>04:10 AM</td>
+                    <td>6:25 PM</td>
+                    <td>24 April 2021</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>04:09 AM</td>
+                    <td>6:25 PM</td>
+                    <td>25 April 2021</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>04:08 AM</td>
+                    <td>6:25 PM</td>
+                    <td>26 April 2021</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>04:07 AM</td>
+                    <td>6:26 PM</td>
+                    <td>27 April 2021</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>04:06 AM</td>
+                    <td>6:26 PM</td>
+                    <td>28 April 2021</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>04:05 AM</td>
+                    <td>6:27 PM</td>
+                    <td>29 April 2021</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>04:04 AM</td>
+                    <td>6:27 PM</td>
+                    <td>30 April 2021</td>
+                </tr>
+                <tr>
+                    <td>19</td>
+                    <td>04:03 AM</td>
+                    <td>6:28 PM</td>
+                    <td>01 May 2021</td>
+                </tr>
+                <tr>
+                    <td>20</td>
+                    <td>04:02 AM</td>
+                    <td>6:28 PM</td>
+                    <td>02 May 2021</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>04:01 AM</td>
+                    <td>6:29 PM</td>
+                    <td>03 May 2021</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>04:00 AM</td>
+                    <td>6:29 PM</td>
+                    <td>04 May 2021</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>03:59 AM</td>
+                    <td>6:30 PM</td>
+                    <td>05 May 2021</td>
+                </tr>
+                <tr>
+                    <td>24</td>
+                    <td>03:59 AM</td>
+                    <td>6:30 PM</td>
+                    <td>06 May 2021</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>03:58 AM</td>
+                    <td>6:31 PM</td>
+                    <td>07 May 2021</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>03:57 AM</td>
+                    <td>6:31 PM</td>
+                    <td>08 May 2021</td>
+                </tr>
+                <tr>
+                    <td>27</td>
+                    <td>03:56 AM</td>
+                    <td>6:32 PM</td>
+                    <td>09 May 2021</td>
+                </tr>
+                <tr>
+                    <td>28</td>
+                    <td>03:55 AM</td>
+                    <td>6:32 PM</td>
+                    <td>10 May 2021</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>03:55 AM</td>
+                    <td>6:32 PM</td>
+                    <td>11 May 2021</td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>03:54 AM</td>
+                    <td>6:33 PM</td>
+                    <td>12 May 2021</td>
+                </tr>
+            </table>
+
+        </div>
+
+    </div>
+    <p id="reminder">2 Minutes will be added for Tangail</p>
+    <footer>
+        <p>Thank you 🙂</p>
+        <p>No &copy; Copyright Available</p>
+        <div id="blank"></div>
+    </footer>
+</body>
+
+</html>
