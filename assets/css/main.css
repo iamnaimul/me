@@ -1,7 +1,6 @@
 body{
 	background-color: #f9f9f9;
 	font-family: "Crimson Text";
-	margin: 5%;
 }
 
 .main{
@@ -55,9 +54,9 @@ body{
     	.info{
 			font-family: "Crimson";
 			line-height: 28px;
-		    font-size: 16px;
-		    padding-top: 15px;
-		    padding-right: 50px;
+	    	font-size: 16px;
+	    	padding-top: 15px;
+	    	padding-right: 50px;
 		}
 		
 		.home-description{
